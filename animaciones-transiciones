@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+   <style>
+   
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-bottom: 2px solid darkgreen;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    font-size: 20px;
+
+}
+
+.btn-modern:hover {
+
+background-color: rgb(228, 116, 116);
+border-bottom: 2px solid rgb(253, 1, 1);
+color: black;
+transform: translateY(-5px);
+box-shadow: 5px 5px 5px 5px;
+}
+   </style>
+</head>
+<body>
+    <button class="btn-modern">Buscar</button>
+    
+</body>
+</html>
